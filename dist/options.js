@@ -98,10 +98,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-class App extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-    render() {
-        return react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "options page");
-    }
+function App() {
+    return react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "options page");
 }
 const root = document.createElement("div");
 document.body.appendChild(root);
